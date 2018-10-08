@@ -9,7 +9,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: linear-gradient(30deg, #282c34, #204c63);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -33,7 +33,7 @@
 
     span.type-cursor {
       opacity: 1;
-      animation: blink .7s infinite;
+      animation: blink .9s infinite;
     }
   }
 

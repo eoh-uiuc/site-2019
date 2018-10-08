@@ -42,7 +42,7 @@ class App extends Component {
       this.setState({
         wordIndex: (wordIndex + 1) % wordList.length,
       });
-      setTimeout(this.buildWord, 400);
+      setTimeout(this.buildWord, 800);
     } else {
       this.setState({
         wordPortion: wordPortion.slice(0, -1),
