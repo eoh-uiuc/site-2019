@@ -1,18 +1,20 @@
 language: node_js
 node_js:
-  - "9.10.0"
+- 9.10.0
 cache:
   yarn: true
   directories:
   - node_modules
 script:
-  - yarn test && yarn build
+- yarn test && yarn build
 deploy:
-  - provider: s3
-    access_key_id: $EOH_ACCESS_KEY
-    secret_access_key: $EOH_SECRET_KEY
-    bucket: $EOH_SITE_BUCKET_NAME
-    skip_cleanup: true
-    local_dir: build
-    on:
-      branch: master
+  provider: s3
+  access_key_id: AKIAIKDUPXMDF43MUG5A
+  secret_access_key:
+    secure: HTvSE39Ib6/vlo7kZdda3/Ic8ThhlcuOb28175tXGOxjtfb9cVTDWRusvxBqH6YEu3ohxzPf5zEYW5Gw8OUR5APUMc1MRhrvEWtUbpGa8CbTBitqJDL/PKMzbpzBt10gSoGesQ9szvu6NZzWial6HS7A+HFS6TfqMdbR3woYdfX+UGB7fTG99ma3zEdl7xYSUQxKfen06xtlHY0aoCiKruP1noAnUt+Sd59QeUwespE12lCV4AAaY219ZQFyDI/zRkvncOe3qYTPXi8zgAf1zpvC/2a60YdMfLVMTRgPNJn9VCJJ6Pz00BZAI3w84rx10CdUHdYfxF1N6uRA2QhgkY34mEa/J+rFJvx+1mxWvPB/seXaZ26dNHkYG5k3nuVGwEC93Num7inKESMob0uqaz+NG4OvnkXTAyF+rKReaNCVA9hDeXobawDGyTliZcBHgrKyY79VDjYAWjLVTNKtCFNHeW1i/VQeGFOJHNcjjUd162TS9YNP3Uawv72Ulezyn6v2x9P6T3dQkXlJkKJVfKLbRQb72dREVmaneqTDKJEcfgo+7FrQl/luw7TAVxvdFaCIXm3hy9r0BNrTBkgSl4BOCg7jMtCbhhdEclmLVwrcMR3Xo2meGLmL5WiPz29X3+3xvYx0wy8D6czzoA3Fc8ueGT20B6R2Uh7l5K91cmA=
+  bucket: eohillinois.org
+  skip_cleanup: true
+  local-dir: build
+  acl: public_read
+  on:
+    branch: master
