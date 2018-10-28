@@ -3,11 +3,12 @@ import logo from './assets/logo-white.png';
 import './App.scss';
 
 const wordList = [
-  'Boundaries',
   'The Status Quo',
-  'Rahul',
-  'Time Linearity',
-  'Limits',
+  'Limitations',
+  'Standards',
+  'Expectations',
+  'Constraints',
+  'Bounds',
 ];
 
 class App extends Component {
@@ -15,7 +16,7 @@ class App extends Component {
     super(props);
 
     this.state = {
-      wordIndex: 0,
+      wordIndex: Math.floor(Math.random() * Math.floor(wordList.length)),
       wordPortion: '',
     }
   }
@@ -37,7 +38,7 @@ class App extends Component {
 
   destructWord = () => {
     const { wordIndex, wordPortion } = this.state;
-    
+
     if (wordPortion.length === 0) {
       this.setState({
         wordIndex: (wordIndex + 1) % wordList.length,
@@ -59,7 +60,9 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <div className="logo-wrapper">
+            <img src={logo} className="App-logo" alt="logo" />
+          </div>
           <h1>Engineering Open House</h1>
           <h2>
             Dare to Defy <span className="word">{this.state.wordPortion}</span>
