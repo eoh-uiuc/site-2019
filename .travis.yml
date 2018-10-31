@@ -13,7 +13,7 @@ deploy:
     secret_access_key: $EOH_SECRET_KEY
     bucket: "www.eohillinois.org"
     skip_cleanup: true
-    region: us-east-2
+    region: us-east-1
     local-dir: build
     on:
       branch: master
