@@ -10,10 +10,13 @@ nav#site-nav {
     padding: 0 30px;
     box-sizing: border-box;
 
-    > img {
-        height: 90%;
-        box-sizing: border-box;
-        flex-grow: 0;
+    a {
+        height: 100%;
+        > img {
+            height: 90%;
+            box-sizing: border-box;
+            flex-grow: 0;
+        }
     }
 
     .spacing {

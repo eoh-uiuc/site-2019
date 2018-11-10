@@ -8,7 +8,9 @@ class Nav extends Component {
   render() {
     return (
       <nav id="site-nav">
-        <img src={Logo} alt="EOH Logo" />
+        <Link to="/">
+          <img src={Logo} alt="EOH Logo" />
+        </Link>
 
         <div className="spacing" />
 
