@@ -2,7 +2,9 @@ import React from 'react';
 
 import './styles.scss';
 
-const Error = (message) => () => (
+export const ErrorHOC = (message) => <Error message={message} />;
+
+const Error = ({ message }) => (
   <main className="error">
     <h1>{message}</h1>
   </main>

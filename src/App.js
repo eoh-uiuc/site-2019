@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Nav from 'components/Nav';
 import Home from 'scenes/Home';
 import ExternalRoute from 'scenes/ExternalRoute';
-import Error from 'scenes/Error';
+import { ErrorHOC } from 'scenes/Error';
 
 import corporatePacket from 'assets/EOH_2019_Corporate_Packet.pdf';
 
@@ -22,7 +22,7 @@ class App extends Component {
             <Route path="/" exact component={Home} />
             <Route path="/sponsor" exact component={ExternalRoute(corporatePacket)} />
             <Route path="/register" exact component={ExternalRoute(exhibitorRegistration)} />
-            <Route component={Error("Page Not Found")} />
+            <Route component={ErrorHOC('Page Not Found')} />
           </Switch>
         </div>
       </Router>
