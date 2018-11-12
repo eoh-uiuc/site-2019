@@ -31,7 +31,7 @@ class Home extends Component {
 
   render() {
     return (
-      <main>
+      <main className="splash">
         <img id="dare" src={dare} alt="Dare To Defy" />
         <img id="dare-mobile" src={dareMobile} alt="Dare To Defy" />
         <h2 className="rotating-text" onAnimationIteration={this.replaceText}>
