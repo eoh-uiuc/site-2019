@@ -15,6 +15,7 @@ class Nav extends Component {
         <div className="spacing" />
 
         <nav className="nav-links">
+          <Link to="/events">Events</Link>
           <Link to="/register">Registration</Link>
           <Link to="/sponsor">Support Us</Link>
         </nav>
