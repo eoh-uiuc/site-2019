@@ -1,6 +1,6 @@
 .info-pane {
   background-color: rgba(0,0,0,0.0);
-  border: 1px solid #383838;
+  border: 1px solid #666;
   cursor: pointer;
   overflow: hidden;
   position: relative;
@@ -9,7 +9,7 @@
   transition: border-color .3s, height .2s linear;
 
   &:hover {
-    border-color: #666;
+    border-color: #aaa;
     .pane-img {
       opacity: 0.15;
     }
@@ -90,5 +90,17 @@
         }
       }
     }
+  }
+
+  .arrow {
+    position: absolute;
+    bottom: 6px;
+    left: calc(50% - 4px);
+    transition: transform .2s;
+    width: 8px;
+    z-index: 1;
+
+    &.up { transform: rotate(90deg); }
+    &.down { transform: rotate(-90deg); }
   }
 }

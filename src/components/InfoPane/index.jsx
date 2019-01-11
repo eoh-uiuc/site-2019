@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import arrow from 'assets/left.svg';
 import './styles.scss';
 
 const BASE_HEIGHT = 140;
@@ -52,9 +53,11 @@ class InfoPane extends Component {
 
           <div className="split">
             <div className="name"><h3>{name}</h3></div>
-            <p className="description">{children}</p>
+            <div className="description">{children}</div>
           </div>
         </div>
+
+        <img className={`arrow ${collapsed ? 'down' : 'up'}`} src={arrow} alt="arrow" />
       </div>
     );
   }
