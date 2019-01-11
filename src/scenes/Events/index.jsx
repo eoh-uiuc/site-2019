@@ -55,10 +55,20 @@ class Events extends Component {
             name="Startup Showcase"
           >
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eros odio,
-              pretium et arcu eu, laoreet dignissim tellus. Nulla bibendum vestibulum arcu
-              id pharetra. Morbi ultrices dolor eget lacinia molestie. Morbi et bibendum
-              felis. Suspendisse gravida ligula ut accumsan porta.
+              Startup Showcase is an exhibit at EOH that presents startup companies. These are
+              the groups that have spent countless hours developing their own ideas into a product
+              and furthermore into a company.
+            </p>
+            <br />
+            <p>
+              They will be demonstrating their unique ideas and showing how they are working
+              towards a better and brighter future.
+            </p>
+            <br />
+            <p>
+              Startup Showcase is a second year exhibit as there has been a rise in startup ideas
+              in the Urbana-Champaign area. This is due to the flourishing engineering and business
+              programs here at the University of Illinois.
             </p>
           </InfoPane>
           <InfoPane

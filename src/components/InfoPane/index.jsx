@@ -18,6 +18,10 @@ class InfoPane extends Component {
     this.contentRef = React.createRef();
   }
 
+  componentDidMount() {
+    this.contentHeight = this.contentRef.current.clientHeight;
+  }
+
   toggle() {
     this.setState(prevState => ({
       collapsed: !prevState.collapsed,
@@ -27,13 +31,9 @@ class InfoPane extends Component {
   render() {
     const { image, time, name, children } = this.props;
     const { collapsed } = this.state;
-    let contentHeight = 0;
-    if (this.contentRef.current) {
-      contentHeight = this.contentRef.current.clientHeight;
-    }
 
     const paneStyles = {
-      height: collapsed ? BASE_HEIGHT : EXPANDED_HEIGHT + contentHeight + 30,
+      height: collapsed ? BASE_HEIGHT : EXPANDED_HEIGHT + this.contentHeight + 40,
     };
     const paneImageStyles = {
       backgroundImage: `url(${image})`,
