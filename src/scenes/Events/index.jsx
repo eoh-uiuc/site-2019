@@ -12,7 +12,7 @@ class Events extends Component {
     return (
       <main className="events">
         <div className="content">
-          <h1>Events at EOH</h1>
+          <h1>Events</h1>
           <InfoPane
             image={exhibitingImage}
             time="Friday 8 am - 4 pm, Saturday 8 am - 3:30 pm"
