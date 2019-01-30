@@ -1,93 +1,98 @@
 import React, { Component } from 'react';
 
-import InfoPane from 'components/InfoPane';
-
-import exhibitingImage from 'assets/images/eoh-sign.jpg';
-import teslaImage from 'assets/images/tesla-coil.jpeg';
-
+import EventSection from './Events';
+import Competitions from './Competitions';
+import Tours from './Tours';
+import SpecialExhibits from './SpecialExhibits';
 import './styles.scss';
 
 class Events extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      active: 0,
+    };
+
+    this.eventRef = React.createRef();
+    this.compRef = React.createRef();
+    this.toursRef = React.createRef();
+    this.specRef = React.createRef();
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+  }
+
+  handleScroll = () => {
+    const { scrollY } = window;
+
+    if (scrollY < this.compRef.current.offsetTop - 230) {
+      this.setState({ active: 0 });
+    } else if (scrollY < this.toursRef.current.offsetTop - 230) {
+      this.setState({ active: 1 });
+    } else if (scrollY < this.specRef.current.offsetTop - 230) {
+      this.setState({ active: 2 });
+    } else {
+      this.setState({ active: 3 });
+    }
+  }
+
+  handleClick = (ref) => () => {
+    window.scroll({ top: ref.current.offsetTop - 70, behavior: 'smooth' });
+  }
+
   render() {
+    const { active } = this.state;
+    console.log(active);
+
     return (
-      <main className="events">
-        <div className="content">
-          <h1>Events</h1>
-          <InfoPane
-            image={exhibitingImage}
-            time="Friday 8 am - 4 pm, Saturday 8 am - 3:30 pm"
-            name="Exhibiting Hours"
+      <main className="events-container">
+        <div className="events-nav">
+          <a
+            onClick={this.handleClick(this.eventRef)}
+            className={active === 0 ? 'active' : ''}
+            href="#events"
           >
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eros odio,
-              pretium et arcu eu, laoreet dignissim tellus. Nulla bibendum vestibulum arcu
-              id pharetra. Morbi ultrices dolor eget lacinia molestie. Morbi et bibendum
-              felis. Suspendisse gravida ligula ut accumsan porta.
-            </p>
-          </InfoPane>
-          <InfoPane
-            image={teslaImage}
-            time="Friday 8 pm - 9 pm"
-            name="Tesla Coil Concert"
+            Events
+          </a>
+          <a
+            onClick={this.handleClick(this.compRef)}
+            className={active === 1 ? 'active' : ''}
+            href="#competitions"
           >
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eros odio,
-              pretium et arcu eu, laoreet dignissim tellus. Nulla bibendum vestibulum arcu
-              id pharetra. Morbi ultrices dolor eget lacinia molestie. Morbi et bibendum
-              felis. Suspendisse gravida ligula ut accumsan porta.
-            </p>
-          </InfoPane>
-          <InfoPane
-            image={exhibitingImage}
-            time="Friday 8 am - 4 pm, Saturday 8 am - 3:30 pm"
-            name="High School Showcase"
+            Competition
+          </a>
+          <a
+            onClick={this.handleClick(this.toursRef)}
+            className={active === 2 ? 'active' : ''}
+            href="#tours"
           >
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eros odio,
-              pretium et arcu eu, laoreet dignissim tellus. Nulla bibendum vestibulum arcu
-              id pharetra. Morbi ultrices dolor eget lacinia molestie. Morbi et bibendum
-              felis. Suspendisse gravida ligula ut accumsan porta.
-            </p>
-          </InfoPane>
-          <InfoPane
-            image={exhibitingImage}
-            time="Friday 8 am - 4 pm, Saturday 8 am - 3:30 pm"
-            name="Startup Showcase"
+            Tours
+          </a>
+          <a
+            onClick={this.handleClick(this.specRef)}
+            className={active === 3 ? 'active' : ''}
+            href="#specialEvents"
           >
-            <p>
-              Startup Showcase is an exhibit at EOH that presents startup companies. These are
-              the groups that have spent countless hours developing their own ideas into a product
-              and furthermore into a company.
-            </p>
-            <br />
-            <p>
-              They will be demonstrating their unique ideas and showing how they are working
-              towards a better and brighter future.
-            </p>
-            <br />
-            <p>
-              Startup Showcase is a second year exhibit as there has been a rise in startup ideas
-              in the Urbana-Champaign area. This is due to the flourishing engineering and business
-              programs here at the University of Illinois.
-            </p>
-          </InfoPane>
-          <InfoPane
-            image={exhibitingImage}
-            time="Friday 8 am - 4 pm, Saturday 8 am - 3:30 pm"
-            name="IEC & Discover"
-          >
-            <p>
-              IEC and Discover provide a way to outreach to younger children and students
-              by giving them opportunity to engage in engineering exhibits! IEC will feature
-              four mini-exhibits including chromatography, strawberry DNA extraction, a team
-              drawing, talking, and building activity, and a simple sail car. Discover gives
-              visitors a guide to enjoying their EOH experience. This year, Discover will
-              feature a BINGO card and visitors can complete their card by visiting certain
-              Discover exhibits. When they visit these exhibits, they will be awarded a sticker.
-              Discover provides visitors a great way to engage with exhibits and explore various
-              departments of engineering.
-            </p>
-          </InfoPane>
+            Special Exhibits
+          </a>
+        </div>
+        <div className="events" ref={this.eventRef}>
+          <EventSection />
+        </div>
+        <div className="events" ref={this.compRef}>
+          <Competitions />
+        </div>
+        <div className="events" ref={this.toursRef}>
+          <Tours />
+        </div>
+        <div className="events" ref={this.specRef}>
+          <SpecialExhibits />
         </div>
       </main>
     );

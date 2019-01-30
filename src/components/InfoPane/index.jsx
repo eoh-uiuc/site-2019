@@ -29,7 +29,7 @@ class InfoPane extends Component {
   }
 
   render() {
-    const { image, time, name, children } = this.props;
+    const { image, time, location, name, children } = this.props;
     const { collapsed } = this.state;
 
     const paneStyles = {
@@ -49,11 +49,14 @@ class InfoPane extends Component {
         <div className="pane-img" style={paneImageStyles}/>
 
         <div ref={this.contentRef} className="content" style={contentStyles}>
-          <p className="time">{time}</p>
+          <div className="logistics">
+            <p className="time">{time}</p>
+            <p className="location">{location}</p>
+          </div>
 
           <div className="split">
             <div className="name"><h3>{name}</h3></div>
-            <div className="description">{children}</div>
+            <div className={`description ${collapsed ? 'inactive' : 'active'}`}>{children}</div>
           </div>
         </div>
 
