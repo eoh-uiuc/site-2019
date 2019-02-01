@@ -35,7 +35,7 @@ const Competitions = () => (
     </InfoPane>
     <InfoPane
       image={teslaImage}
-      time="Friday 8:30 am - 2 pm"
+      time="Friday, 8:30 am - 2 pm"
       name="HSDC"
       location="ECEB"
     >

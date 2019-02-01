@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Nav from 'components/Nav';
+import Footer from 'components/Footer';
 import Home from 'scenes/Home';
 import Events from 'scenes/Events';
 import ExternalRoute from 'scenes/ExternalRoute';
@@ -24,6 +25,7 @@ class App extends Component {
             <Route path="/register" exact component={ExternalRoute(exhibitorRegistration)} />
             <Route component={ErrorHOC('Page Not Found')} />
           </Switch>
+          <Footer />
         </div>
       </Router>
     );

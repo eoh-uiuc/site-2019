@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import arrow from 'assets/left.svg';
+import arrow from 'assets/icons/left.svg';
 import './styles.scss';
 
 const BASE_HEIGHT = 140;

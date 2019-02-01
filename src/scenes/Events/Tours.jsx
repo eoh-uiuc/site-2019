@@ -22,6 +22,16 @@ const Tours = () => (
     </InfoPane>
     <InfoPane
       image={teslaImage}
+      time=""
+      name="Custom Tours"
+      location=""
+    >
+      <p>
+        <a href="https://goo.gl/forms/HBfHXdsWfQ0Dwf3P2">Sign up for custom tours</a>
+      </p>
+    </InfoPane>
+    <InfoPane
+      image={teslaImage}
       time="Friday &amp; Saturday, 9:30 am - 4 pm"
       name="MRL Open House"
       location="Materials Research Lab"

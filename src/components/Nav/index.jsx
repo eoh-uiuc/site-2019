@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 import Logo from 'assets/logo-white.png';
-import menuIcon from 'assets/menu_icon.svg';
-import close from 'assets/left.svg';
+import menuIcon from 'assets/icons/menu_icon.svg';
+import close from 'assets/icons/left.svg';
 import './styles.scss';
 
 class Nav extends Component {
@@ -81,6 +81,7 @@ class Nav extends Component {
           <img src={Logo} alt="EOH Logo" />
           <Link onClick={this.toggleMenu} to="/">Home</Link>
           <Link onClick={this.toggleMenu} to="/events">Tours &amp; Events</Link>
+          <a href="https://www.volunteer.eohillinois.org">Volunteer</a>
           <Link onClick={this.toggleMenu} to="/sponsor">Support Us</Link>
         </nav>
       </nav>

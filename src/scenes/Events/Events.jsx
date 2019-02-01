@@ -43,7 +43,7 @@ const EventSection = () => (
     </InfoPane>
     <InfoPane
       image={exhibitingImage}
-      time="Friday &amp; Saturday 9 am - 4 pm"
+      time="Friday &amp; Saturday, 9 am - 4 pm"
       name="IEC &amp; Discover"
       location="Engineering Hall"
     >
@@ -74,7 +74,7 @@ const EventSection = () => (
     </InfoPane>
     <InfoPane
       image={teslaImage}
-      time="Friday 5 pm"
+      time="Friday, 5 pm"
       name="Keynote Speaker"
     >
       <p>
@@ -86,15 +86,13 @@ const EventSection = () => (
     </InfoPane>
     <InfoPane
       image={teslaImage}
-      time="Friday 7:30 pm"
+      time="Friday, 7:30 pm"
       name="Tesla Coil Concert"
       location="Bardeen Quad"
     >
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eros odio,
-        pretium et arcu eu, laoreet dignissim tellus. Nulla bibendum vestibulum arcu
-        id pharetra. Morbi ultrices dolor eget lacinia molestie. Morbi et bibendum
-        felis. Suspendisse gravida ligula ut accumsan porta.
+        Get excited for the annual Tesla Coil Concert! With some new tunes, let's
+        rock it out engineering-style. 
       </p>
     </InfoPane>
     <InfoPane
@@ -112,7 +110,7 @@ const EventSection = () => (
     </InfoPane>
     <InfoPane
       image={teslaImage}
-      time="Friday 2 pm - 3:30 pm"
+      time="Friday, 2 pm - 3:30 pm"
       name="Alumni Welcome"
       location="North Talbot Lawn"
     >
