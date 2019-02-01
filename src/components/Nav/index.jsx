@@ -80,8 +80,7 @@ class Nav extends Component {
           <img className="close" src={close} alt="close pane" onClick={this.toggleMenu} />
           <img src={Logo} alt="EOH Logo" />
           <Link onClick={this.toggleMenu} to="/">Home</Link>
-          <Link onClick={this.toggleMenu} to="/events">Events</Link>
-          <Link onClick={this.toggleMenu} to="/register">Registration</Link>
+          <Link onClick={this.toggleMenu} to="/events">Tours &amp; Events</Link>
           <Link onClick={this.toggleMenu} to="/sponsor">Support Us</Link>
         </nav>
       </nav>

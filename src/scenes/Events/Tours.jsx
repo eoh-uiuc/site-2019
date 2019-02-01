@@ -10,7 +10,7 @@ const Tours = () => (
     <InfoPane
       image={teslaImage}
       time="Friday &amp; Saturday, 9 am - 4 pm"
-      name="Vistor Tours"
+      name="Visitor Tours"
       location="Departs from Bardeen Quad"
     >
       <p>

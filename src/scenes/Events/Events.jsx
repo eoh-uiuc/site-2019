@@ -15,10 +15,8 @@ const EventSection = () => (
       location="Various Engineering Buildings"
     >
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eros odio,
-        pretium et arcu eu, laoreet dignissim tellus. Nulla bibendum vestibulum arcu
-        id pharetra. Morbi ultrices dolor eget lacinia molestie. Morbi et bibendum
-        felis. Suspendisse gravida ligula ut accumsan porta.
+        Interactive and exciting exhibits being made and run by students across campus from
+        several majors surrouding topics that Dare to Defy in their field.
       </p>
     </InfoPane>
     <InfoPane
