@@ -80,6 +80,31 @@ main.splash {
   100% { top: 20px; opacity: 0; }
 }
 
+.about-wrapper { background-color: #212027; }
+.judge-wrapper { background-color: #202933; }
+
+.info-wrapper {
+  div {
+    padding: 60px 0 100px 0;
+
+    h1 {
+      font-size: 52px;
+      margin-bottom: 35px;
+      text-align: center;
+    }
+
+    p {
+      font-size: 22px;
+      padding: 15px;
+
+      a {
+        font-weight: bold;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
 .sponsors-wrapper {
   background: #0F2027;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
