@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import arrow from 'assets/icons/left.svg';
 import './styles.scss';
 
-const BASE_HEIGHT = 140;
+const BASE_HEIGHT = 150;
 const EXPANDED_HEIGHT = 220;
 
 class InfoPane extends Component {
@@ -22,10 +22,12 @@ class InfoPane extends Component {
     this.contentHeight = this.contentRef.current.clientHeight;
   }
 
-  toggle() {
-    this.setState(prevState => ({
-      collapsed: !prevState.collapsed,
-    }));
+  toggle(e) {
+    if (e.target.tagName.toLowerCase() !== 'a') {
+      this.setState(prevState => ({
+        collapsed: !prevState.collapsed,
+      }));
+    }
   }
 
   render() {

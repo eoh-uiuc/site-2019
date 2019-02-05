@@ -5,9 +5,10 @@ const About = () => (
     <div className="container">
       <h1>Engineering Open House 2019</h1>
       <p>
-        Engineering Open House is an annual student-led event featuring two days
+        Engineering Open House is an annual student-led STEM fair featuring two days
         of exciting exhibits and captivating competitions that showcase the
-        talent and ingenuity of engineering students at the University of Illinois.
+        talent and ingenuity of engineering students at the University of Illinois
+        at Urbana Champaign.
       </p>
       <br />
       <p>

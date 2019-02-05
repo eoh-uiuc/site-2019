@@ -7,7 +7,7 @@ const Judge = () => (
       <p>
         Calling all Alumni and industry professionals! Be a part of the
         Engineering Open House Experience by volunteering as a judge for the
-        event. Judges assist in judging over 300 exhibits the Friday of EOH.
+        event. Judges assist in judging over 250 exhibits the Friday of EOH.
         If you are interested in judging, please register&nbsp;
         <a href="https://goo.gl/forms/KDXjlsC68gzXiH4d2">here</a>.
       </p>

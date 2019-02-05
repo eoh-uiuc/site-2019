@@ -10,27 +10,46 @@ const Tours = () => (
     <InfoPane
       image={teslaImage}
       time="Friday &amp; Saturday, 9 am - 4 pm"
-      name="Visitor Tours"
+      name="General Tours"
       location="Departs from Bardeen Quad"
     >
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eros odio,
-        pretium et arcu eu, laoreet dignissim tellus. Nulla bibendum vestibulum arcu
-        id pharetra. Morbi ultrices dolor eget lacinia molestie. Morbi et bibendum
-        felis. Suspendisse gravida ligula ut accumsan porta.
+        The general tours will highlight our most popular attractions and walk the
+        group around various engineering campus buildings. The tours are approximately
+        one hour and cover everything from UofI history to EOH exhibit locations. This
+        tour leaves every half hour from the Bardeen Quad Visitor Information stand and
+        prior registration is not required. We recommend this tour for first time UofI
+        and EOH visitors.
       </p>
+      <br />
+      <p>
+        Please contact <a href="mailto:clnye2@illinois.edu">clnye2@illinois.edu</a> with
+        questions. 
+      </p>
+      <br />
     </InfoPane>
     <InfoPane
       image={teslaImage}
-      time=""
+      time="Friday &amp; Saturday, 9 am - 4 pm"
       name="Custom Tours"
       location=""
     >
       <p>
-        <a href="https://goo.gl/forms/HBfHXdsWfQ0Dwf3P2">Sign up for custom tours</a>
+        The custom tours are meant for groups that would like to explore a certain category
+        of exhibits. We will work with your group to find the best tour route and times.
+        The exhibits will be customized by age preference and subject matter. In order to
+        participate in a custom tour please
+        register <a href="https://goo.gl/forms/HBfHXdsWfQ0Dwf3P2">here</a>.
       </p>
+      <br />
+      <p>
+        The last day to sign up is February 27th. We recommend this tour for teachers
+        bringing their students or groups of people.
+        Please contact <a href="mailto:dholle2@illinois.edu">dholle2@illinois.edu</a>.
+      </p>
+      <br />
     </InfoPane>
-    <InfoPane
+    {/* <InfoPane
       image={teslaImage}
       time="Friday &amp; Saturday, 9:30 am - 4 pm"
       name="MRL Open House"
@@ -42,20 +61,7 @@ const Tours = () => (
         id pharetra. Morbi ultrices dolor eget lacinia molestie. Morbi et bibendum
         felis. Suspendisse gravida ligula ut accumsan porta.
       </p>
-    </InfoPane>
-    <InfoPane
-      image={teslaImage}
-      time="Friday &amp; Saturday, 9 am - 4 pm"
-      name="NCSA Tours"
-      location="NCSA building &amp; National Petascale Computing Facility"
-    >
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eros odio,
-        pretium et arcu eu, laoreet dignissim tellus. Nulla bibendum vestibulum arcu
-        id pharetra. Morbi ultrices dolor eget lacinia molestie. Morbi et bibendum
-        felis. Suspendisse gravida ligula ut accumsan porta.
-      </p>
-    </InfoPane>
+    </InfoPane>*/}
   </div>
 );
 

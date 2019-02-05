@@ -16,7 +16,8 @@ const Competitions = () => (
       location="Kenney Gym Annex"
     >
       <p>
-        This student-run annual robotics competition lasts two days and features great
+        The Midwest Robotics Design Competition (MRDC) is a 
+        student-run annual robotics competition lasts two days and features great
         ingenuity displayed by all participating teams. This competition started in 1987,
         making it one of the oldest continuing robotics competitions in America, predating
         both Battlebots and FIRST Robotics by several years.
@@ -32,6 +33,8 @@ const Competitions = () => (
         optional demolition round, in which robots can obliterate each other in a free for
         all frenzy to the last robot moving.
       </p>
+      <br />
+      <p>Find out more at <a href="http://mrdc.ec.illinois.edu/">mrdc.ec.illinois.edu</a>!</p>
     </InfoPane>
     <InfoPane
       image={teslaImage}
@@ -43,7 +46,7 @@ const Competitions = () => (
         The High School Design Competition is a competiton for High Schoolers to show off
         the Rube Goldberg contraptions they have been designing and building. This year's
         competition involves having these students create a contraption which puts money
-        in a puggy bank. 14 teams from the surrounding area will be competing for the top
+        in a piggy bank. 14 teams from the surrounding area will be competing for the top
         spot to qualify for the national competition.
       </p>
     </InfoPane>
@@ -57,7 +60,7 @@ const Competitions = () => (
         The Middle School Design Competition offers 6th through 8th graders an opportunity
         to engineer their own projects through a prepared design challenge. This year,
         the challenge is to build a a mousetrap car! Teams will compete to have the
-        fastest car over a given distance. Contests have to apply engineering principles
+        fastest car over a given distance. Contestants have to apply engineering principles
         combined with creativity to compete for the best design. Come and check it out!
       </p>
     </InfoPane>

@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import EventSection from './Events';
 import Competitions from './Competitions';
 import Tours from './Tours';
-import SpecialExhibits from './SpecialExhibits';
 import './styles.scss';
 
 class Events extends Component {
@@ -17,7 +16,6 @@ class Events extends Component {
     this.eventRef = React.createRef();
     this.compRef = React.createRef();
     this.toursRef = React.createRef();
-    this.specRef = React.createRef();
   }
 
   componentDidMount() {
@@ -35,10 +33,8 @@ class Events extends Component {
       this.setState({ active: 0 });
     } else if (scrollY < this.toursRef.current.offsetTop - 230) {
       this.setState({ active: 1 });
-    } else if (scrollY < this.specRef.current.offsetTop - 230) {
-      this.setState({ active: 2 });
     } else {
-      this.setState({ active: 3 });
+      this.setState({ active: 2 });
     }
   }
 
@@ -48,7 +44,6 @@ class Events extends Component {
 
   render() {
     const { active } = this.state;
-    console.log(active);
 
     return (
       <main className="events-container">
@@ -65,7 +60,7 @@ class Events extends Component {
             className={active === 1 ? 'active' : ''}
             href="#competitions"
           >
-            Competition
+            Competitions
           </a>
           <a
             onClick={this.handleClick(this.toursRef)}
@@ -73,13 +68,6 @@ class Events extends Component {
             href="#tours"
           >
             Tours
-          </a>
-          <a
-            onClick={this.handleClick(this.specRef)}
-            className={active === 3 ? 'active' : ''}
-            href="#specialEvents"
-          >
-            Special Exhibits
           </a>
         </div>
         <div className="events" ref={this.eventRef}>
@@ -90,9 +78,6 @@ class Events extends Component {
         </div>
         <div className="events" ref={this.toursRef}>
           <Tours />
-        </div>
-        <div className="events" ref={this.specRef}>
-          <SpecialExhibits />
         </div>
       </main>
     );
