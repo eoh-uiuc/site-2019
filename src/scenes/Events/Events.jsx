@@ -148,7 +148,7 @@ const EventSection = () => (
     </InfoPane> */}
     <InfoPane
       image={teslaImage}
-      time="Friday &amp; Saturday, 9 am - 4 am"
+      time="Friday &amp; Saturday, 9 am - 12 pm"
       name="Majors Fair"
       location="Digital Computer Lab Basement"
     >
