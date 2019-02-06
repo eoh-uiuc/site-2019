@@ -2,9 +2,13 @@ import React, { Component } from 'react';
 
 class Logo extends Component {
   render() {
-    const { src, alt, long } = this.props;
+    const { src, alt, long, className } = this.props;
+    let cn = `logo ${ long ? 'long' : 'short' }`;
+    if (className) {
+      cn += ' ' + className;
+    }
     return (
-      <div className={`logo ${ long ? 'long' : 'short' }`}>
+      <div className={cn}>
         <img src={src} alt={alt} />
       </div>
     );

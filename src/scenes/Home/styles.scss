@@ -123,6 +123,7 @@ div.sponsor-logos {
   h1 {
     color: black;
     font-size: 58px;
+    margin-bottom: 30px;
     text-align: center;
   }
 
@@ -135,10 +136,12 @@ div.sponsor-logos {
 
     .logo {
       display: inline-block;
-      margin: 40px;
-      max-width: 230px;
+      margin: 20px 40px;
+      max-width: 220px;
 
       &.long { max-width: 460px; }
+      &.rr { max-width: 170px; }
+      &.jd { max-width: 310px; }
 
       img { width: 100%; }
     }

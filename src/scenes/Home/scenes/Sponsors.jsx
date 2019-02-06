@@ -23,10 +23,10 @@ const Sponsors = () => (
         <Logo long src={Exelon} alt="Exelon" />
         <Logo long src={Exxon} alt="Exxon" />
         <Logo src={Huawei} alt="Huawei" />
-        <Logo src={JohnDeere} alt="John Deere" />
+        <Logo className="jd" src={JohnDeere} alt="John Deere" />
         <Logo long src={Parker} alt="Parker Hannifin" />
         <Logo src={PG} alt="Procter and Gamble" />
-        <Logo src={RR} alt="Rolls Royce" />
+        <Logo className="rr" src={RR} alt="Rolls Royce" />
         <Logo long src={SDI} alt="Steel Dynamics" />
         <Logo long src={Walgreens} alt="Walgreens" />
         <Logo long src={Watlow} alt="Watlow" />
