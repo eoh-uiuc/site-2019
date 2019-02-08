@@ -45,7 +45,8 @@ const Tours = () => (
       <p>
         The last day to sign up is February 27th. We recommend this tour for teachers
         bringing their students or groups of people.
-        Please contact <a href="mailto:dholle2@illinois.edu">dholle2@illinois.edu</a>.
+        Please contact <a href="mailto:dholle2@illinois.edu">dholle2@illinois.edu</a> if
+        you have any questions.
       </p>
       <br />
     </InfoPane>
