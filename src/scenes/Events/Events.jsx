@@ -7,6 +7,7 @@ import startupImage from 'assets/images/startup_showcase.jpg';
 import teslaImage from 'assets/images/tesla-coil.jpeg';
 import alumniImage from 'assets/images/Alumni.jpg';
 import discoverImage from 'assets/images/Discover.jpg';
+import robobrawlImage from 'assets/images/Robobrawl.jpg';
 
 const EventSection = () => (
   <div className="content section">
@@ -147,7 +148,7 @@ const EventSection = () => (
       </p>
     </InfoPane> */}
     <InfoPane
-      image={teslaImage}
+      image={exhibitingImage}
       time="Friday &amp; Saturday, 9 am - 12 pm"
       name="Majors Fair"
       location="Digital Computer Lab Basement"
@@ -157,6 +158,29 @@ const EventSection = () => (
         majors we offer here at Illinois. Come check us out at 3-5pm each day to talk
         with students about what they love about their major. There will also be
         handouts at each booth!
+      </p>
+    </InfoPane>
+    <InfoPane
+      image={robobrawlImage}
+      time="Friday, 9 am - 4 pm | Saturday, 9 am - 3 pm"
+      name="Robobrawl"
+      location=""
+    >
+      <p>
+        Do you want to see some battle-bots! Do you want to see some mass destruction!
+        Welcome to 2019 Robobrawl! 
+      </p>
+      <br />
+      <p>
+        Robobrawl is an annual combat robotics event that takes place each year during
+        the Engineering Open House on the University of Illinois campus. The event
+        consists of a double elimination tournament over the two days of Engineering
+        Open House where each team battles for dominance. The current format consists
+        of 30 pound combat robots fighting in a 16′ x 16′ arena.
+      </p>
+      <br />
+      <p>
+        Find out more at <a href="http://robobrawl.illinois.edu">robobrawl.illinois.edu</a>
       </p>
     </InfoPane>
   </div>

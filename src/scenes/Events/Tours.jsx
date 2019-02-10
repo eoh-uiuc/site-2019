@@ -2,13 +2,14 @@ import React from 'react';
 
 import InfoPane from 'components/InfoPane';
 
-import teslaImage from 'assets/images/tesla-coil.jpeg';
+import generalImage from 'assets/images/GeneralTour.jpg';
+import customImage from 'assets/images/CustomTour.jpg';
 
 const Tours = () => (
   <div className="content section">
     <h1>Tours</h1>
     <InfoPane
-      image={teslaImage}
+      image={generalImage}
       time="Friday &amp; Saturday, 9 am - 4 pm"
       name="General Tours"
       location="Departs from Bardeen Quad"
@@ -29,7 +30,7 @@ const Tours = () => (
       <br />
     </InfoPane>
     <InfoPane
-      image={teslaImage}
+      image={customImage}
       time="Friday &amp; Saturday, 9 am - 4 pm"
       name="Custom Tours"
       location=""
