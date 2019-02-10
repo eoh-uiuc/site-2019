@@ -2,7 +2,7 @@ import React from 'react';
 
 import InfoPane from 'components/InfoPane';
 
-import teslaImage from 'assets/images/tesla-coil.jpeg';
+import defaultImage from 'assets/images/eoh-sign.jpg';
 import mrdcImage from 'assets/images/MRDC.jpg';
 import msdcImage from 'assets/images/MSDC.jpg';
 
@@ -37,7 +37,7 @@ const Competitions = () => (
       <p>Find out more at <a href="http://mrdc.ec.illinois.edu/">mrdc.ec.illinois.edu</a>!</p>
     </InfoPane>
     <InfoPane
-      image={teslaImage}
+      image={defaultImage}
       time="Friday, 8:30 am - 2 pm"
       name="HSDC"
       location="ECEB"
