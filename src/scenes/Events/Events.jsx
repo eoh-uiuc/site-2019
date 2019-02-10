@@ -180,7 +180,7 @@ const EventSection = () => (
       </p>
       <br />
       <p>
-        Find out more at <a href="robobrawl.illinois.edu">robobrawl.illinois.edu</a>
+        Find out more at <a href="http://robobrawl.illinois.edu">robobrawl.illinois.edu</a>
       </p>
     </InfoPane>
   </div>
