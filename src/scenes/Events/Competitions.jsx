@@ -69,7 +69,7 @@ const Competitions = () => (
       image={robobrawlImage}
       time="Friday, 9 am - 4 pm | Saturday, 9 am - 3 pm"
       name="Robobrawl"
-      location=""
+      location="Area 51"
     >
       <p>
         Do you want to see some battle-bots! Do you want to see some mass destruction!
