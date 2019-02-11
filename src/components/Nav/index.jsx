@@ -81,6 +81,7 @@ class Nav extends Component {
           <img src={Logo} alt="EOH Logo" />
           <Link onClick={this.toggleMenu} to="/">Home</Link>
           <Link onClick={this.toggleMenu} to="/events">Tours &amp; Events</Link>
+          <Link onClick={this.toggleMenu} to="/teachers">For Teachers</Link>
           <a href="https://www.volunteer.eohillinois.org">Volunteer</a>
           <Link onClick={this.toggleMenu} to="/sponsor">Support Us</Link>
         </nav>
