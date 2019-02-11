@@ -14,8 +14,8 @@ const Teachers = () => {
             <p>
               All teachers are welcome to bring their classes on field trips to Engineering Open House!
               EOH is a great way to inspire your students with hands-on, fun, and exciting projects
-              made by engineering students at University of Illinois at Urbana-Champaign. This year
-              we are exhibiting over 230 projects and host 3 competitions over the course of the weekend. 
+              made by engineering students at the University of Illinois at Urbana-Champaign. This year
+              we are exhibiting over 230 projects and host 4 competitions over the course of the weekend. 
               Check out our Events &amp; Tours page for even more events!
             </p>
             <a
@@ -58,10 +58,11 @@ const Teachers = () => {
             <h1>Transportation</h1>
             <p>
               We ask that you please have your bus driver drop off riders at our designated bus stop
-              (map coming soon) then proceed to the EOH parking lot and take the EOH shuttle to join
+              then proceed to the EOH parking lot and take the EOH shuttle to join
               the group. This allows for a smoother drop-off of students close to the event and a
               prevention of our shuttles being too crowded, potentially separating groups in the process.
             </p>
+            <p className="ct">(Map coming soon)</p>
           </div>
         </div>
         <br />
