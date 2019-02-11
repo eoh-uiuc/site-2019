@@ -5,6 +5,7 @@ import Nav from 'components/Nav';
 import Footer from 'components/Footer';
 import Home from 'scenes/Home';
 import Events from 'scenes/Events';
+import Teachers from 'scenes/Teachers';
 import ExternalRoute from 'scenes/ExternalRoute';
 import { ErrorHOC } from 'scenes/Error';
 
@@ -21,6 +22,7 @@ class App extends Component {
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/events" exact component={Events} />
+            <Route path="/teachers" exact component={Teachers} />
             <Route path="/sponsor" exact component={ExternalRoute(corporatePacket)} />
             <Route path="/register" exact component={ExternalRoute(exhibitorRegistration)} />
             <Route component={ErrorHOC('Page Not Found')} />
