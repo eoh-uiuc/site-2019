@@ -15,8 +15,8 @@ const Teachers = () => {
               All teachers are welcome to bring their classes on field trips to Engineering Open House!
               EOH is a great way to inspire your students with hands-on, fun, and exciting projects
               made by engineering students at the University of Illinois at Urbana-Champaign. This year
-              we are exhibiting over 230 projects and host 4 competitions over the course of the weekend. 
-              Check out our Events &amp; Tours page for even more events!
+              we are exhibiting over 230 projects and hosting 4 competitions over the course of the
+              weekend. Check out our Events &amp; Tours page for even more events!
             </p>
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLScVinYWrY-F5dN0Wvvlxz8OC9CeJqQ-GDqF0UjKdyR3dxlgfw/viewform"

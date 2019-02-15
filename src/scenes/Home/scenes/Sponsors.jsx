@@ -19,17 +19,17 @@ const Sponsors = () => (
     <div className="sponsor-logos container">
       <h1>Sponsors</h1>
       <div className="logos">
-        <Logo src={Chevron} alt="Chevron" />
-        <Logo long src={Exelon} alt="Exelon" />
-        <Logo long src={Exxon} alt="Exxon" />
-        <Logo src={Huawei} alt="Huawei" />
-        <Logo className="jd" src={JohnDeere} alt="John Deere" />
-        <Logo long src={Parker} alt="Parker Hannifin" />
-        <Logo src={PG} alt="Procter and Gamble" />
-        <Logo className="rr" src={RR} alt="Rolls Royce" />
-        <Logo long src={SDI} alt="Steel Dynamics" />
-        <Logo long src={Walgreens} alt="Walgreens" />
-        <Logo long src={Watlow} alt="Watlow" />
+        <Logo src={Chevron} alt="Chevron" href="https://www.chevron.com/" />
+        <Logo long src={Exelon} alt="Exelon" href="http://www.exeloncorp.com/" />
+        <Logo long src={Exxon} alt="Exxon" href="https://corporate.exxonmobil.com/" />
+        <Logo src={Huawei} alt="Huawei" href="https://www.huawei.com/us/" />
+        <Logo className="jd" src={JohnDeere} alt="John Deere" href="https://www.deere.com/en/index.html" />
+        <Logo long src={Parker} alt="Parker Hannifin" href="https://www.parker.com" />
+        <Logo src={PG} alt="Procter and Gamble" href="https://us.pg.com/" />
+        <Logo className="rr" src={RR} alt="Rolls Royce" href="https://www.rolls-royce.com/" />
+        <Logo long src={SDI} alt="Steel Dynamics" href="http://www.steeldynamics.com/" />
+        <Logo long src={Walgreens} alt="Walgreens" href="https://www.walgreens.com/" />
+        <Logo long src={Watlow} alt="Watlow" href="https://www.watlow.com/" />
       </div>
     </div>
   </div>

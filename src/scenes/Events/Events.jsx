@@ -67,19 +67,33 @@ const EventSection = () => (
         Pick up your BINGO card at the EOH tent on Bardeen Quad!
       </p>
     </InfoPane>
-    {/* <InfoPane
-      image={teslaImage}
-      time="Friday, 12 pm - 2 pm | Saturday, 11 am -  2:30 pm"
+    <InfoPane
+      image={exhibitingImage}
+      time="Various Times"
       name="Entertainment"
       location="Lawn North of Talbot Lab"
     >
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eros odio,
-        pretium et arcu eu, laoreet dignissim tellus. Nulla bibendum vestibulum arcu
-        id pharetra. Morbi ultrices dolor eget lacinia molestie. Morbi et bibendum
-        felis. Suspendisse gravida ligula ut accumsan porta.
-      </p>
-    </InfoPane> */}
+      <table>
+        <tbody>
+          <tr>
+            <td>Friday, 1:00 pm - 2:00 pm</td>
+            <td>Oskees Illini Dance Company</td>
+          </tr>
+          <tr>
+            <td>Saturday, 11:00 am - 12:30 pm</td>
+            <td>Chip McNeill jazzquartet</td>
+          </tr>
+          <tr>
+            <td>Saturday, 12:30 pm - 2:00 pm</td>
+            <td>The Data Waves</td>
+          </tr>
+          <tr>
+            <td>Saturday, 2:00 pm - 3:00 pm</td>
+            <td>Illini Awaaz</td>
+          </tr>
+        </tbody>
+      </table>
+    </InfoPane>
     {/* <InfoPane
       image={teslaImage}
       time="Friday, 5 pm"
