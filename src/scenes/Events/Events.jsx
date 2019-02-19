@@ -168,7 +168,7 @@ const EventSection = () => (
     >
       <p>
         The majors fair is a great way to learn about all the different engineering
-        majors we offer here at Illinois. Come check us out at 3-5pm each day to talk
+        majors we offer here at Illinois. Come check us out at 9 am - 12pm each day to talk
         with students about what they love about their major. There will also be
         handouts at each booth!
       </p>
