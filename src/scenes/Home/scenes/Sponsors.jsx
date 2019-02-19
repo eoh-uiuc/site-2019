@@ -3,6 +3,7 @@ import React from 'react';
 import Ameren from 'assets/logos/Ameren.png';
 import Beckman from 'assets/logos/Beckman.png';
 import Caterpillar from 'assets/logos/Caterpillar.png';
+import CERL from 'assets/logos/CERL.png';
 import Chevron from 'assets/logos/Chevron.png';
 import Cummins from 'assets/logos/Cummins.png';
 import Exelon from 'assets/logos/Exelon.png';
@@ -46,7 +47,7 @@ const Sponsors = () => (
           <Logo src={PG} alt="Procter and Gamble" href="https://us.pg.com/" />
           <Logo long src={Ameren} alt="Ameren" href="https://www.ameren.com/" />
           <Logo long src={Parker} alt="Parker Hannifin" href="https://www.parker.com" />
-          {/* <Logo src={CERL} alt="CERL" href="https://www.erdc.usace.army.mil/Locations/CERL/" /> */}
+          <Logo src={CERL} alt="CERL" href="https://www.erdc.usace.army.mil/Locations/CERL/" />
           <Logo long src={SDI} alt="Steel Dynamics" href="http://www.steeldynamics.com/" />
         </div>
 
