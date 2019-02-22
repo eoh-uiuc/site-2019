@@ -7,6 +7,7 @@ import Home from 'scenes/Home';
 import Events from 'scenes/Events';
 import Teachers from 'scenes/Teachers';
 import ExternalRoute from 'scenes/ExternalRoute';
+import About from 'scenes/About';
 import { ErrorHOC } from 'scenes/Error';
 
 import corporatePacket from 'assets/EOH_2019_Corporate_Packet.pdf';
@@ -25,6 +26,7 @@ class App extends Component {
             <Route path="/teachers" exact component={Teachers} />
             <Route path="/sponsor" exact component={ExternalRoute(corporatePacket)} />
             <Route path="/register" exact component={ExternalRoute(exhibitorRegistration)} />
+            <Route path="/about" exact component={About} />
             <Route component={ErrorHOC('Page Not Found')} />
           </Switch>
           <Footer />

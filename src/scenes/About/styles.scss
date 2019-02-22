@@ -1,0 +1,46 @@
+.about {
+  background: #222;
+  box-sizing: border-box;
+  min-height: calc(100vh - 110px);
+  padding: 100px 0;
+  width: 100%;
+
+  .committee {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .member {
+      box-sizing: border-box;
+      height: 27vw;
+      padding: 20px;
+      width: 25%;
+
+      .content {
+        background-size: cover;
+        background-position: 50% 50%;
+        height: 100%;
+        position: relative;
+        width: 100%;
+
+        .info {
+          background-color: rgba(0,0,0,0.7);
+          bottom: 0;
+          box-sizing: border-box;
+          opacity: 0;
+          padding: 10px;
+          position: absolute;
+          text-align: center;
+          transition: opacity 0.3s;
+          width: 100%;
+
+          p { font-size: 12px; }
+        }
+
+        &:hover {
+          .info { opacity: 1; }
+        }
+      }
+    }
+  }
+}
