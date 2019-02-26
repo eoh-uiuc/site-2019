@@ -52,7 +52,7 @@ const Teachers = () => {
               the EOH information booths.  Prizes for completed cards can also be picked up at the
               information booths.
             </p>
-            <p className="ct">(<em>Discover</em> EOH PDF coming soon)</p>
+            <a href="/discover_eoh.pdf" className="button"><em>Discover</em> EOH PDF</a>
           </div>
           <div>
             <h1>Transportation</h1>
@@ -62,7 +62,7 @@ const Teachers = () => {
               the group. This allows for a smoother drop-off of students close to the event and a
               prevention of our shuttles being too crowded, potentially separating groups in the process.
             </p>
-            <p className="ct">(Map coming soon)</p>
+            <a href="/ShuttleMap.pdf" className="button">Shuttle Map</a>
           </div>
         </div>
         <br />
