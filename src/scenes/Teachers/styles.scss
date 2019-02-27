@@ -1,10 +1,7 @@
+@import '../../styles/variables.scss';
+
 .teachers {
-  background: #222;
-  box-sizing: border-box;
-  min-height: calc(100vh - 110px);
-  padding: 100px 0;
   position: relative;
-  width: 100%;
 
   img {
     width: 100%;
@@ -73,9 +70,7 @@
     justify-content: center;
   }
   .final-wrapper {
-    background: #12c2e9;
-    background: -webkit-linear-gradient(16deg, #f64f59, #c471ed, #12c2e9);
-    background: linear-gradient(16deg, #f64f59, #c471ed, #12c2e9);
+    @include background-gradient;
     margin: 30px 5px 0 5px;
     padding: 3px;
 

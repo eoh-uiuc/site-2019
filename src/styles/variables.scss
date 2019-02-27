@@ -1,0 +1,7 @@
+$footer-height: 150px;
+
+@mixin background-gradient($rotation: 16deg) {
+  background: #12c2e9;
+  background: -webkit-linear-gradient($rotation, #f64f59, #c471ed, #12c2e9);
+  background: linear-gradient($rotation, #f64f59, #c471ed, #12c2e9);
+}
