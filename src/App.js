@@ -23,8 +23,8 @@ class App extends Component {
           <Nav />
           <Switch>
             <Route path="/" exact component={Home} />
-            <Route path="/info" exact component={Info} />
             <Route path="/events" exact component={Events} />
+            <Route path="/transportation" exact component={Info} />
             <Route path="/teachers" exact component={Teachers} />
             <Route path="/sponsor" exact component={ExternalRoute(corporatePacket)} />
             <Route path="/register" exact component={ExternalRoute(exhibitorRegistration)} />

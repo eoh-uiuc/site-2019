@@ -20,6 +20,8 @@
       background-color: #222;
       margin: -1px -1px 3px -1px;
       padding-bottom: 4px;
+
+      @media (max-width: 767px) { text-align: center; }
     }
   }
 
@@ -53,7 +55,7 @@
       align-items: center;
       display: flex;
       flex-direction: row;
-      padding: 0 12px;
+      padding: 5px 12px;
 
       p {
         color: #333;

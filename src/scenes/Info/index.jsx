@@ -10,13 +10,14 @@ const Info = () => {
     <div className="info dark-page">
       <div className="container">
         <div className="intro">
-          <h3>Engineering Open House 2019</h3>
+          <h3>Getting Around Campus</h3>
           <p className="intro-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu leo ac neque mollis
-            dictum. Nulla ut vehicula enim, sodales gravida orci. Cras commodo est non libero
-            vestibulum, vel imperdiet sem faucibus. Fusce gravida nibh in ex suscipit egestas. Proin
-            sollicitudin aliquet odio, consectetur ornare urna ullamcorper et. Quisque tristique ipsum
-            vitae mattis pulvinar. Integer eget urna venenatis, volutpat ligula eget, semper magna.
+            To make your visit to Engineering Open House as smooth as possible, we have reserved
+            multiple parking lots on campus for visitors to utilize free of charge. We also offer
+            a free bus shuttle with multiple stops near the action of EOH and the parking lots.
+            The shuttle will run during all EOH exhibiting hours. See the map below for details.
+            If you are a teacher arriving via school bus, please refer to the instructions on
+            the "For Teachers" page.
           </p>
         </div>
 
@@ -47,7 +48,7 @@ const Info = () => {
 
         <div className="transportation">
           <div className="header-wrapper">
-            <h1>Transportation</h1>
+            <h1>Frequently Asked Questions</h1>
           </div>
 
           <div className="qa-wrapper">
@@ -75,10 +76,9 @@ const Info = () => {
               <h6>Where can I park?</h6>
 
               <p>
-                On Friday, March 8th, you can park for free at B-22, E-14, B-4, E-24 or in any covered
-                parking garage on campus. You may also park on street parking assuming you pay for the
-                meters. On Saturday, March 9th, you may park in any University lot for free as parking
-                is not enforced on the weekends.
+                On Friday, March 8th, you can park for free at B-22, E-14, B-4, or E-2. You may also
+                park on street parking assuming you pay for the meters. On Saturday, March 9th, you
+                may park in any University lot for free as parking is not enforced on the weekends.
               </p>
             </div>
 
