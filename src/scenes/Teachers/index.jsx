@@ -6,7 +6,7 @@ import './styles.scss';
 
 const Teachers = () => {
   return (
-    <div className="teachers">
+    <div className="teachers dark-page">
       <div className="container">
         <div className="columns">
           <div>
@@ -63,6 +63,7 @@ const Teachers = () => {
               prevention of our shuttles being too crowded, potentially separating groups in the process.
             </p>
             <a href="/ShuttleMap.pdf" className="button">Shuttle Map</a>
+            <a href="/School-Bus-Instructions.pdf" className="button">School Bus Instructions</a>
           </div>
         </div>
         <br />

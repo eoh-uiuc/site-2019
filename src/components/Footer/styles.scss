@@ -1,3 +1,5 @@
+@import '../../styles/variables.scss';
+
 .footer {
   background-color: #111;
 
@@ -5,7 +7,7 @@
     align-items: center;
     display: flex;
     flex-direction: row;
-    height: 110px;
+    height: $footer-height - 44px;
     justify-content: center;
 
     a {

@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Nav from 'components/Nav';
 import Footer from 'components/Footer';
 import Home from 'scenes/Home';
+import Info from 'scenes/Info';
 import Events from 'scenes/Events';
 import Teachers from 'scenes/Teachers';
 import ExternalRoute from 'scenes/ExternalRoute';
@@ -23,6 +24,7 @@ class App extends Component {
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/events" exact component={Events} />
+            <Route path="/transportation" exact component={Info} />
             <Route path="/teachers" exact component={Teachers} />
             <Route path="/sponsor" exact component={ExternalRoute(corporatePacket)} />
             <Route path="/register" exact component={ExternalRoute(exhibitorRegistration)} />

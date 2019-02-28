@@ -46,7 +46,7 @@ class Events extends Component {
     const { active } = this.state;
 
     return (
-      <main className="events-container">
+      <main className="events-container dark-page">
         <div className="events-nav">
           <a
             onClick={this.handleClick(this.eventRef)}
