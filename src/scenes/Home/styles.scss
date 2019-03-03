@@ -81,7 +81,11 @@ main.splash {
 }
 
 .about-wrapper { background-color: #212027; }
-.judge-wrapper { background-color: #202933; }
+.visguide-wrapper {
+  background-color: #202933;
+  &.info-wrapper > div { padding-bottom: 50px; }
+}
+.judge-wrapper {background-color: #243230; }
 
 .info-wrapper {
   div {

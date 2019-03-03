@@ -20,7 +20,7 @@ const Teachers = () => {
             </p>
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLScVinYWrY-F5dN0Wvvlxz8OC9CeJqQ-GDqF0UjKdyR3dxlgfw/viewform"
-              className="button"
+              className="button-gradient purple"
             >
               Register Your Trip
             </a>
@@ -39,7 +39,7 @@ const Teachers = () => {
             </p>
             <a
               href="https://goo.gl/forms/HBfHXdsWfQ0Dwf3P2"
-              className="button"
+              className="button-gradient purple"
             >
               Custom Tour Sign-Up
             </a>
@@ -52,7 +52,7 @@ const Teachers = () => {
               the EOH information booths.  Prizes for completed cards can also be picked up at the
               information booths.
             </p>
-            <a href="/discover_eoh.pdf" className="button"><em>Discover</em> EOH PDF</a>
+            <a href="/discover_eoh.pdf" className="button-gradient purple"><em>Discover</em> EOH PDF</a>
           </div>
           <div>
             <h1>Transportation</h1>
@@ -62,8 +62,8 @@ const Teachers = () => {
               the group. This allows for a smoother drop-off of students close to the event and a
               prevention of our shuttles being too crowded, potentially separating groups in the process.
             </p>
-            <a href="/ShuttleMap.pdf" className="button">Shuttle Map</a>
-            <a href="/School-Bus-Instructions.pdf" className="button">School Bus Instructions</a>
+            <a href="/ShuttleMap.pdf" className="button-gradient purple">Shuttle Map</a>
+            <a href="/School-Bus-Instructions.pdf" className="button-gradient purple">School Bus Instructions</a>
           </div>
         </div>
         <br />
