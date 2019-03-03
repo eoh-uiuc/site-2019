@@ -30,3 +30,37 @@ a.button {
   outline: none;
   padding: 4px 10px;
 }
+
+.button-gradient {
+  display: block;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+  font-size: 18px;
+  font-weight: 600;
+  margin: 20px auto;
+  padding: 10px 20px;
+  position: relative;
+  text-align: center;
+  transition: transform 0.2s linear;
+  width: 200px;
+
+  &:hover {
+    transform: translate(0, -1.2px);
+  }
+  em {
+    font-style: italic;
+  }
+}
+
+.button-gradient.purple {
+  background: #8E2DE2;
+  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+  background: linear-gradient(to right, #4A00E0, #8E2DE2);
+}
+
+.button-gradient.blue {
+  background: #0575E6;
+  background: -webkit-linear-gradient(to right, #023B79, #0455B6);
+  background: linear-gradient(to right, #023B79, #0455B6);
+}
