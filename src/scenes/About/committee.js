@@ -184,7 +184,7 @@ const committee = [
   {
     name: 'Alice Perng',
     position: 'Director of Startup Showcase',
-    major: 'Computer Science',
+    major: 'Computer Engineering & Engineering Physics',
     year: 'Sophomore',
     image: Alice,
   },

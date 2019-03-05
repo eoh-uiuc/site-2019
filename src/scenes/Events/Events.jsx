@@ -24,7 +24,7 @@ const EventSection = () => (
     </InfoPane>
     <InfoPane
       image={startupImage}
-      time="Friday, 8 am - 4 pm | Saturday, 8 am - 3:30 pm"
+      time="Friday, 9 am - 4 pm | Saturday, 9 am - 3:30 pm"
       name="Startup Showcase"
       location="Siebel Center Atrium"
     >

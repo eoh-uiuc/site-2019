@@ -76,9 +76,14 @@ const Info = () => {
               <h6>Where can I park?</h6>
 
               <p>
-                On Friday, March 8th, you can park for free at B-22, E-14, B-4, or E-2. You may also
+                On Friday, March 8th, you can park for free at B-22 or E-14. You may also
                 park on street parking assuming you pay for the meters. On Saturday, March 9th, you
                 may park in any University lot for free as parking is not enforced on the weekends.
+              </p>
+              <br />
+              <p>
+                Note: The visitors guide says "you can park for free in any covered lot". This is
+                incorrect and you will be ticketed if you don't pay the meter!
               </p>
             </div>
 
