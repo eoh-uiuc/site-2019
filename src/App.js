@@ -19,6 +19,7 @@ const exhibitorRegistration = 'https://goo.gl/forms/KGz0PT04lFHevOio1';
 const App = () => {
   useEffect(() => {
     ReactGA.initialize('UA-115295600-2');
+    ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
 
   return (
