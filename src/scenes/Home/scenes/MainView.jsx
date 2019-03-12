@@ -37,7 +37,6 @@ class MainView extends Component {
         </h2>
         <h4>Engineering Open House</h4>
         <h4>March 8th - 9th, 2019</h4>
-        <h6>Exhibits: 9 AM - 4 PM</h6>
 
         <div className="overlay" />
       </main>
